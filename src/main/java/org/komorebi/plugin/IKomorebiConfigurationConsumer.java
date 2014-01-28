@@ -8,7 +8,7 @@ package org.komorebi.plugin;
  * @author lycis
  *
  */
-public interface IKomorebiConfigurationConsumer {
+public interface IKomorebiConfigurationConsumer extends IKomorebiPlugin{
 	/**
 	 * This method is called by the core to publish the values set in the configuration file that
 	 * that are registered for the PlugIn.

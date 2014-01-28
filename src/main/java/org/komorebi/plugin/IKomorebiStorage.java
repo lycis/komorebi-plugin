@@ -7,7 +7,7 @@ package org.komorebi.plugin;
  * @author lycis
  *
  */
-public interface IKomorebiStorage {
+public interface IKomorebiStorage extends IKomorebiPlugin{
 	/**
 	 * Stores a chunk of data in the given partition block.
 	 * If the chunk could not be stored to the storage location for any reason the status of all
