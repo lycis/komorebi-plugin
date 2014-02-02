@@ -1,4 +1,6 @@
-package org.komorebi.plugin;
+package org.komorebi.plugin.storage;
+
+import org.komorebi.plugin.IKomorebiPlugin;
 
 /**
  * This interface defines a storage location for Komorebi. This is any place where it may place chunks
